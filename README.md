@@ -446,8 +446,13 @@ a.pop_front();            // Removes a[0], shifts toward front
 ```cpp
 #include <utility>        // Include utility (std namespace)
 pair<string, int> a("hello", 3);  // A 2-element struct
+auto b = make_pair("hello", 3);   // A 2-element struct
 a.first;                  // "hello"
 a.second;                 // 3
+
+string a_first;
+int a_second;
+tie(a_first, a_second) = a;  // a_first = "hello", a_second = 3
 ```
 
 ## `map` (associative array - usually implemented as binary search trees - avg. time complexity: O(log n))
