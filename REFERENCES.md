@@ -7,13 +7,20 @@ The goal is to give a concise overview of basic, modern C++ (C++14).
 
 The document is hosted on https://github.com/mortennobel/cpp-cheatsheet. Any comments and feedback are appreciated.
 
+また、以下の日本語資料を参考にしています。
+
+- [AtCoder Programming Guide for biginners (APG4b) | AtCoder](https://atcoder.jp/contests/apg4b)
+- [江添亮のC++入門 | 江添 亮](https://ezoeryou.github.io/cpp-intro/)
+- [江添亮の詳説C++17 | 江添 亮](https://ezoeryou.github.io/cpp17book/)
+- [C++11/14コア言語 | 江添 亮](https://ezoeryou.github.io/cpp-book/C++11-Syntax-and-Feature.xhtml)
+
 ## Preprocessor
 
 
 
 ## Literals
 
-
+- [APG4b / Y-3.01.数値型 | AtCoder](https://atcoder.jp/contests/apg4b/tasks/APG4b_y)
 
 ## Declarations
 
