@@ -371,6 +371,16 @@ assert(e);                // If e is false, print message and abort
 cin >> x >> y;              // Read words x and y (any type) from stdin
 cout << "x=" << 3 << endl;  // Write line to stdout
 cerr << x << y << flush;    // Write to stderr and flush
+
+cout << 3.14159265358979 << endl;
+                            // 3.14159
+cout << fixed << setprecision(10) << 3.14159265358979 << endl;
+                            // 3.1415926536  少数第10位まで表示
+cout << scientific << setprecision(3) << 0.00000000031459 << endl;
+                            // 3.146e-10     指数表記
+cout << defaultfloat << setprecision(6) << 3.14159265358979 << endl;
+                            // 3.14159       デフォルトの表示形式に戻す
+
 c = cin.get();              // c = getchar();
 cin.get(c);                 // Read char
 cin.getline(s, n, '\n');    // Read line into char s[n] to '\n' (default)
