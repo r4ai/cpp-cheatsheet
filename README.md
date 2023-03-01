@@ -100,7 +100,7 @@ enum weekend{SAT=0,SUN=1};  // Explicit representation as int
 enum {SAT,SUN} day;         // Anonymous enum
 enum class Color {Red,Blue};// Color is a strict type with values Red and Blue
 Color x = Color::Red;       // Assign Color x to red
-typedef String char*;       // String s; means char* s;
+typedef char* String;       // String s; means char* s;
 const int c=3;              // Constants must be initialized, cannot assign to
 const int* p=a;             // Contents of p (elements of a) are constant
 int* const p=a;             // p (but not contents) are constant
