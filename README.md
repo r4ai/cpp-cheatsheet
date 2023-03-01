@@ -454,7 +454,7 @@ getline(cin, s);          // Read line ending in '\n'
 #include <vector>         // Include vector (std namespace)
 vector<int> a(10);        // a[0]..a[9] are int (default size is 0)
 vector<int> b{1,2,3};     // Create vector with values 1,2,3
-b = a;                    // Deep copy from `a` to `b`
+auto b = a;               // Deep copy from `a` to `b`
 a.size();                 // Number of elements (10)
 a.push_back(3);           // Increase size to 11, a[10]=3
 a.back()=4;               // a[10]=4;
